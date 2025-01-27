@@ -6,7 +6,7 @@ export default function Index() {
   let steps = 0;
   let currentIndex = 0;
   let nbOfImages = 0;
-  let maxNumberOfImages = 10;
+  let maxNumberOfImages = 8;
   let refs = [];
 
   const manageMouseMove = (e) => {
@@ -84,22 +84,17 @@ export default function Index() {
               ref={ref}
               key={index}
               src={`/images/${index}.jpg`}
+              className="imagedesktop"
             ></img>
           );
         })}
       </div>
       <div className={styles.mobilemain}>
         {[...Array(20).keys()].map((_, index) => {
-          const ref = useRef(null);
-          refs.push(ref);
           return (
             <img
-              onClick={() => {
-                console.log(refs);
-              }}
-              ref={ref}
-              key={index}
               src={`/images-mobile/${index}.jpg`}
+              key={index}
               className={styles.imagemobile}
             ></img>
           );
