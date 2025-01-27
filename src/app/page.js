@@ -64,7 +64,9 @@ export default function Index() {
 
   return (
     <main>
-      <h1>SUMMER IN THE CITY</h1>
+      <div className="summer">
+        <img src="./summer.png" />
+      </div>
       <div
         onMouseMove={(e) => {
           manageMouseMove(e);

@@ -3,7 +3,8 @@
   height: 100vh;
   position: relative;
   overflow: hidden;
-  background-color: #c64500;
+
+  padding: 24px;
 }
 
 .main img {
@@ -11,4 +12,16 @@
   position: absolute;
   display: none;
   transform: translateX(-50%) translateY(-50%);
+}
+
+@media only screen and (max-width: 480px) {
+  .main img {
+    position: sticky;
+    top: 50vh;
+    width: 60vw;
+    height: 20vh;
+    object-fit: contain;
+    transform: translate3d(0, -50%, 0);
+    align-self: center;
+  }
 }
