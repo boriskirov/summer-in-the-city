@@ -1,12 +1,9 @@
-body {
-  background-color: #c64500;
-}
-
 .main {
   display: flex;
   height: 100vh;
   position: relative;
   overflow: hidden;
+  background-color: #c64500;
 }
 
 .main img {
