@@ -100,6 +100,7 @@ export default function Index() {
           );
         })}
       </div>
+      <footer>Boris Kirov & Nuno Cruz</footer>
     </main>
   );
 }
