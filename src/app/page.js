@@ -67,6 +67,7 @@ export default function Index() {
       <div className="summer">
         <img src="./summer.png" />
       </div>
+
       <div
         onMouseMove={(e) => {
           manageMouseMove(e);
@@ -100,7 +101,16 @@ export default function Index() {
           );
         })}
       </div>
-      <footer>Boris Kirov & Nuno Cruz</footer>
+
+      <footer>
+        <strong>
+          <h3>⟢ 22nd of March 2025 Pirolito & Contact, Amsterdam ⟢</h3>
+        </strong>
+        <p>
+          Boris Kirov & Nuno Cruz will present their collaborative photographic
+          exhibition welcoming the 750th summer in Amsterdam.
+        </p>
+      </footer>
     </main>
   );
 }
