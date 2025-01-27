@@ -13,22 +13,36 @@
   transform: translateX(-50%) translateY(-50%);
 }
 
+.mobilemain {
+  display: none;
+}
+
 @media only screen and (max-width: 480px) {
   .main {
+    display: none;
+  }
+
+  .mobilemain {
     display: flex;
     flex-direction: column;
     height: auto;
     gap: 20vh;
-    padding-top: 20vh;
+    padding-top: 50vh;
   }
-  .main img {
+
+  .imagemobile {
     position: sticky;
     top: 50vh;
-    width: 60vw;
-    height: 20vh;
+    width: 320px;
+    height: 320px;
     object-fit: contain;
     transform: translate3d(0, -50%, 0);
     align-self: center;
     display: block;
+  }
+
+  .mobilemain img:nth-child(odd) {
+    left: 54px;
+    top: 52vh;
   }
 }

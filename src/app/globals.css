@@ -20,6 +20,10 @@ main {
 }
 
 @media only screen and (max-width: 480px) {
+  .summer {
+    padding: 12px 48px;
+  }
+
   .summer img {
     width: 240px;
   }

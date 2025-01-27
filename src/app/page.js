@@ -82,7 +82,25 @@ export default function Index() {
                 console.log(refs);
               }}
               ref={ref}
+              key={index}
               src={`/images/${index}.jpg`}
+            ></img>
+          );
+        })}
+      </div>
+      <div className={styles.mobilemain}>
+        {[...Array(20).keys()].map((_, index) => {
+          const ref = useRef(null);
+          refs.push(ref);
+          return (
+            <img
+              onClick={() => {
+                console.log(refs);
+              }}
+              ref={ref}
+              key={index}
+              src={`/images-mobile/${index}.jpg`}
+              className={styles.imagemobile}
             ></img>
           );
         })}
