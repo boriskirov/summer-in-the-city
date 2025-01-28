@@ -4,9 +4,11 @@ import { Gelasio } from "next/font/google";
 const font = Gelasio({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: new URL("https://summer-in-the-city.vercel.app"),
   title: "SUMMER IN THE CITY",
   description: "Photographic exhibit by Boris Kirov & Nuno Cruz",
   icon: "/favicon.ico",
+  icon: "/icon.ico",
   openGraph: {
     title: "SUMMER IN THE CITY",
     description: "Photographic exhibit by Boris Kirov & Nuno Cruz",
@@ -21,6 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/images/favicon.ico" sizes="any" />
+        <link rel="icon" href="/images/icon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/images/icon.png" />
       </head>
       <body className={font.className}>{children}</body>
     </html>
