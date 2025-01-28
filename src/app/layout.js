@@ -14,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <link rel="icon" href="/fav.ico" sizes="any" />
+        <meta property="og:image" content="fav.me" />
       </head>
 
       <body className={font.className}>{children}</body>
