@@ -103,13 +103,23 @@ export default function Index() {
       </div>
 
       <footer>
-        <strong>
-          <h3>⟢ 22nd of March 2025 Pirolito & Contact, Amsterdam ⟢</h3>
-        </strong>
-        <p>
-          Boris Kirov & Nuno Cruz will present their collaborative photographic
-          exhibition welcoming the 750th summer in Amsterdam.
-        </p>
+        <div>
+          <h3>
+            <strong>SUMMER IN THE CITY</strong>
+          </h3>
+          <p>
+            PHOTOGRAPHIC EXHIBIT BY <strong>BORIS KIROV & NUNO CRUZ</strong>
+          </p>
+          <p>
+            DATE <strong>22 MARCH</strong>
+          </p>
+          <p>
+            ADDRESS <strong> CONTACTWEG 47, AMSTERDAM</strong>
+          </p>
+          <p>
+            TIME <strong> 1PM 10PM </strong>
+          </p>
+        </div>
       </footer>
     </main>
   );

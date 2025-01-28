@@ -16,6 +16,10 @@ footer {
   padding: 32px 64px;
 }
 
+footer > div > p {
+  margin: 2px;
+}
+
 .summer {
   position: fixed;
   z-index: 1000;
@@ -36,14 +40,14 @@ footer {
   }
 
   .summer img {
-    width: 240px;
+    width: 100%;
   }
 
   footer {
     width: fit-content;
     position: sticky;
-    bottom: -110px;
-    padding: 15px 5%;
+    bottom: -200px;
+    padding: 15px 12%;
     text-align: center;
   }
 }
