@@ -7,8 +7,11 @@ export const metadata = {
   metadataBase: new URL("https://summer-in-the-city.vercel.app"),
   title: "SUMMER IN THE CITY",
   description: "Photographic exhibit by Boris Kirov & Nuno Cruz",
+  icons: {
+    icon: "/icon.ico",
+  },
   icon: "/favicon.ico",
-  icon: "/icon.ico",
+
   openGraph: {
     title: "SUMMER IN THE CITY",
     description: "Photographic exhibit by Boris Kirov & Nuno Cruz",
