@@ -1,7 +1,7 @@
 import "./globals.css";
-import { Gelasio } from "next/font/google";
+import { IBM_Plex_Mono } from "next/font/google";
 
-const font = Gelasio({ subsets: ["latin"] });
+const font = IBM_Plex_Mono({ weight: ["400", "700"], subsets: ["latin"] });
 
 export const metadata = {
   metadataBase: new URL("https://summer-in-the-city.vercel.app"),

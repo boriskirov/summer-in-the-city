@@ -3,6 +3,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: system-ui;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='64' height='64' viewport='0 0 100 100' style='fill:black;font-size:32px;'><text y='50%'>🌞</text></svg>")
+      16 0,
+    auto; /*!emojicursor.app*/
 }
 
 main {
@@ -13,7 +16,8 @@ footer {
   width: fit-content;
   position: absolute;
   bottom: 0;
-  padding: 32px 64px;
+  font-size: 18px;
+  padding: 64px;
 }
 
 footer > div > p {
@@ -36,7 +40,7 @@ footer > div > p {
     overflow: visible;
   }
   .summer {
-    padding: 12px 48px;
+    padding: 12px 8px;
   }
 
   .summer img {
@@ -49,5 +53,6 @@ footer > div > p {
     bottom: -200px;
     padding: 15px 12%;
     text-align: center;
+    font-size: 14px;
   }
 }

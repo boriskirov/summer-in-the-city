@@ -104,9 +104,6 @@ export default function Index() {
 
       <footer>
         <div>
-          <h3>
-            <strong>SUMMER IN THE CITY</strong>
-          </h3>
           <p>
             PHOTOGRAPHIC EXHIBIT BY <strong>BORIS KIROV & NUNO CRUZ</strong>
           </p>
