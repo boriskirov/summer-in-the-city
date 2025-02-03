@@ -11,7 +11,6 @@ export const metadata = {
     icon: "/icon.ico",
   },
   icon: "/favicon.ico",
-
   openGraph: {
     title: "SUMMER IN THE CITY",
     description: "Photographic exhibit by Boris Kirov & Nuno Cruz",
