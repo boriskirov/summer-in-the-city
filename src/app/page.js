@@ -107,6 +107,13 @@ export default function Index() {
           <p>
             PHOTOGRAPHIC EXHIBIT BY <strong>BORIS KIROV & NUNO CRUZ</strong>
           </p>
+        </div>
+        <br />
+        <div>
+          <p>
+            PIROLITO & CONTACT PRESENT:
+            <strong>ART, MUSIC, FRIEND & FERMENTED GRAPES</strong>
+          </p>
           <p>
             DATE <strong>22 MARCH</strong>
           </p>
@@ -114,7 +121,7 @@ export default function Index() {
             ADDRESS <strong> CONTACTWEG 47, AMSTERDAM</strong>
           </p>
           <p>
-            TIME <strong> 1PM 10PM </strong>
+            TIME <strong> 1PM 10PM </strong>(OR LATER)
           </p>
         </div>
       </footer>
