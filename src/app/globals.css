@@ -35,6 +35,12 @@ footer > div > p {
   width: 360px;
 }
 
+.audio {
+  z-index: 100000000;
+  position: absolute;
+  border-radius: 64px;
+}
+
 @media only screen and (max-width: 480px) {
   body {
     overflow: visible;

@@ -111,7 +111,7 @@ export default function Index() {
         <br />
         <div>
           <p>
-            PIROLITO & CONTACT PRESENT:
+            PART OF PIROLITO & CONTACT:
             <strong>ART, MUSIC, FRIEND & FERMENTED GRAPES</strong>
           </p>
           <p>
@@ -124,6 +124,11 @@ export default function Index() {
             TIME <strong> 1PM 10PM </strong>(OR LATER)
           </p>
         </div>
+        <br />
+        <br />
+        <audio autoPlay loop controls className="audio">
+          <source src="./Summer-In-The-City(1).mp3" type="audio/mpeg"></source>
+        </audio>
       </footer>
     </main>
   );

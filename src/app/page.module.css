@@ -19,6 +19,10 @@
   display: none;
 }
 
+.audio {
+  z-index: 10000;
+}
+
 @media only screen and (max-width: 480px) {
   .main {
     display: none;
