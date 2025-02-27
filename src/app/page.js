@@ -1,4 +1,5 @@
 "use client";
+import DateCounter from "../../components/dateCounter";
 import styles from "./page.module.css";
 import { useRef } from "react";
 
@@ -104,6 +105,8 @@ export default function Index() {
 
       <footer>
         <div>
+          <DateCounter />
+          <br />
           <p>
             PHOTOGRAPHIC EXHIBIT BY <strong>BORIS KIROV & NUNO CRUZ</strong>
           </p>

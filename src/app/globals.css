@@ -17,7 +17,9 @@ footer {
   position: absolute;
   bottom: 0;
   font-size: 18px;
-  padding: 64px;
+  padding: 40px;
+  background: #ffffff26;
+  margin: 12px;
 }
 
 footer > div > p {
@@ -39,6 +41,7 @@ footer > div > p {
   z-index: 100000000;
   position: absolute;
   border-radius: 64px;
+  margin: -24px 0;
 }
 
 @media only screen and (max-width: 480px) {
@@ -54,14 +57,14 @@ footer > div > p {
   }
 
   .audio {
-    right: 15%;
+    right: 7%;
     bottom: 120%;
   }
 
   footer {
     width: fit-content;
     position: sticky;
-    bottom: -250px;
+    bottom: -50%;
     padding: 15px 12%;
     text-align: center;
     font-size: 14px;
