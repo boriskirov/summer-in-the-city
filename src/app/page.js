@@ -114,7 +114,7 @@ export default function Index() {
         <br />
         <div>
           <p>
-            PART OF PIROLITO & CONTACT:
+            PART OF PIROLITO & CONTACT{" "}
             <strong>ART, MUSIC, FRIEND & FERMENTED GRAPES</strong>
           </p>
           <p>
@@ -124,7 +124,7 @@ export default function Index() {
             ADDRESS <strong> CONTACTWEG 47, AMSTERDAM</strong>
           </p>
           <p>
-            TIME <strong> 1PM 10PM </strong>(OR LATER)
+            TIME <strong> 1PM TO 10PM </strong>(OR LATER)
           </p>
         </div>
         <br />

@@ -37,7 +37,7 @@ const DateCounter = () => {
 
   return (
     <p className="text-4xl">
-      COUNTDOWN UNTIL SUMMER BEGGINS:
+      COUNTDOWN UNTIL SUMMER BEGINS:{" "}
       <strong>
         {timeLeft.days}d : {timeLeft.hours}h : {timeLeft.minutes}m :{" "}
         {timeLeft.seconds}s
